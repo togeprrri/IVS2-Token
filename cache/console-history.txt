@@ -1,0 +1,103 @@
+await token.vote(true);
+await token.ownersCount()/2;
+await token.ownersCount();
+await token.vote(false);
+await token.setCandidate(addr3.address);
+await token.voting()
+await token.vote(true);
+await token.setCandidate(addr2.address);
+await token.ownersCount();
+await token.vote(true);
+await token.setCandidate(addr1.address);
+await token.ownersCount();
+const token = await Token.deploy();
+const [owner, addr1, addr2, addr3] = await ethers.getSigners();
+const Token = await ethers.getContractFactory("Token");
+await token.owners(3);
+await token.ownersCount();
+await token.voting();
+awit token.voting();
+await token.connect(addr2).vote(true);
+await token.connect(addr1).vote(true);
+await token.voting();
+await token.vote(false);
+await token.voting();
+await token.setCandidate(addr3.address);
+await token.voting();
+await token.ownersCount();
+await token.vote(true);
+await token.setCandidate(addr2.address);
+await token.vote(true);
+await token.setCandidate(addr1.address);
+const token = await Token.deploy();
+const [owner, addr1, addr2, addr3] = await ethers.getSigners();
+const Token = await ethers.getContractFactory("Token");
+await token.owners(2);
+await token.owners.length
+await token.owners.length();
+await token.candidate();
+await token.voting();
+await token.vote(false);
+await token.candidate();
+await token.connect(addr1).setCandidate("0x90F79bf6EB2c4f870365E785982E1f101E93b906");
+await token.candidate();
+await token.owners(2);
+await token.voting();
+await token.vote(true);
+await token.setCandidate("0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC");
+await token.owners(1);
+await token.candidate();
+await token.voting();
+await token.vote(true);
+await token.voting();
+await token.candidate();
+await token.setCandidate("0x70997970C51812dc3A010C7d01b50e0d17dc79C8");
+awit token.setCandidate("0x70997970C51812dc3A010C7d01b50e0d17dc79C8");
+await token.candidate();
+await token.vote(false);
+await token.voting();
+await token.owners(1);
+await token.owners(0);
+token.owners(0);
+addr3.address
+const token = await Token.deploy();
+const [owner, addr1, addr2, addr3, addr4] = await ethers.getSigners();
+const Token = await ethers.getContractFactory("Token");
+await token.owners(2);
+await token.vote(true);
+await token.vote(false);
+await token.setCandidate("0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC");
+await token.owners(1);
+await token.owners(0);
+await token.vote(true);
+await token.setCandidate("0x70997970C51812dc3A010C7d01b50e0d17dc79C8");
+clean
+clear
+addr2
+addr1
+await token.owners(1);
+await token.balanceOf("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+await token.balanceOf(0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266);
+token.balanceOf(0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266);
+await token.owners(0);
+await token.owners
+await token.owners();
+await token.owners[0];
+const token = await Token.deploy();
+const [owner, addr1, addr2] = await ethers.getSigners();
+const Token = await ethers.getContractFactory("Token");
+await token.balanceOf(0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266);
+await owner
+await token.balanceOf(owner);
+await token.totalSupply();
+await token.name();
+await token.owners[0];
+const token = await Token.deploy();
+const [owner, addr1, addr2] = await ethers.getSigners();
+const Token = await ethers.getContractFactory("Token");
+await token.name();
+await token.owners;
+token.owners();
+const token = await Token.deploy();
+const [owner, addr1, addr2] = await ethers.getSigners();
+const Token = await ethers.getContractFactory("Token");
